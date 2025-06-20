@@ -1,0 +1,12 @@
+name: myenv
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - ultralytics
+  - pytorch-cuda=12.1
+  - torchaudio==2.3.0
+  - pytorch==2.3.0
+  - torchvision==0.18.0
+prefix: /home/andylim1022/miniconda3/envs/env1
